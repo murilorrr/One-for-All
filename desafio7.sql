@@ -12,4 +12,4 @@ ON ar.Artista_ID = ab.Artista_ID
 LEFT JOIN SpotifyClone.Seguindo_artistas as sa
 ON sa.Artista_ID = ar.Artista_ID
 GROUP BY ab.Album_ID, ar.Artista_ID
-ORDER BY seguidores DESC, artista;
+ORDER BY seguidores DESC, artista, album;
