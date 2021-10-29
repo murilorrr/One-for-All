@@ -102,7 +102,7 @@ VALUES
   ('Bill', 20, 3),
   ('Roger', 45, 1); 
 
-INSERT INTO Historico_musica (Usuario_ID, Artista_ID)
+INSERT INTO Historico_musica (Usuario_ID, Musica_ID)
 VALUES
   (1, 1),
   (1, 6),
