@@ -8,4 +8,5 @@ ON m.Musica_ID = hm.Musica_ID
 LEFT JOIN SpotifyClone.Usuario as u
 ON u.Usuario_ID = hm.Usuario_ID
 GROUP BY m.Nome
-ORDER BY reproducoes DESC, cancao;
+ORDER BY reproducoes DESC, cancao
+LIMIT 2;
