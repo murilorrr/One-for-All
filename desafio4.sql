@@ -8,4 +8,5 @@ ON a.Artista_ID = sa.Artista_ID
 LEFT JOIN SpotifyClone.Usuario as u
 ON u.Usuario_ID = sa.Usuario_ID
 GROUP BY a.Nome
-ORDER BY seguidores DESC, artista;
+ORDER BY seguidores DESC, artista
+LIMIT 3;
